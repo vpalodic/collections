@@ -52,6 +52,7 @@ public class BalancedTree<T extends Comparable<T>> implements Cloneable, Iterabl
 	// 3. The root's items are stored in items[0] through items[numberOfItems - 1].
 	// 4. If the root has subtrees, then children[0] through
 	// children[numberOfChildren - 1] are references to these subtrees.
+	// 5. The size variable is always maintained through modifications.
 	protected int minNumberOfItems;
 	protected int maxNumberOfItems;
 	protected Object[] items;

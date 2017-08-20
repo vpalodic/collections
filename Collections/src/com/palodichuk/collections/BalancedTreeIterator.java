@@ -93,6 +93,10 @@ public class BalancedTreeIterator<T extends Comparable<T>> implements Iterator<T
 	}
 
 	/**
+	 * Retrieve the next element, in order from least to greatest,
+	 * from the underlying source. 
+	 * @throws NoSuchElementException
+	 *  Indicates that there are no more items to iterate over.
 	 * @see java.util.Iterator#next()
 	 */
 	@Override
